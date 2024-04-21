@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-21T13:59:23 IST" name="Suite" finished-at="2024-04-21T13:59:36 IST" duration-ms="13373">
+    <groups>
+    </groups>
+    <test started-at="2024-04-21T13:59:23 IST" name="Test" finished-at="2024-04-21T13:59:36 IST" duration-ms="13373">
+      <class name="test.TestUsingXmlFile">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestUsingXmlFile@272ed83b]" started-at="2024-04-21T13:59:23 IST" name="setUp" finished-at="2024-04-21T13:59:29 IST" duration-ms="5713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUsingXmlFile(java.util.Map)[pri:0, instance:test.TestUsingXmlFile@272ed83b]" started-at="2024-04-21T13:59:29 IST" name="testUsingXmlFile" description="verify the login test case" finished-at="2024-04-21T13:59:36 IST" duration-ms="6832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=testUsingXmlFile, UserName=standard_user, Execute=yes, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsingXmlFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestUsingXmlFile@272ed83b]" started-at="2024-04-21T13:59:36 IST" name="tearDown" finished-at="2024-04-21T13:59:36 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestUsingXmlFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
